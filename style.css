@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    min-height: 100vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.box_1 {
+    background: grey;
+    background-image: url(img/parallax-effect-espacio-1038x649.jpg);
+    background-size: cover;
+}
+
+.box_2 {
+    background: black;
+    background-image: url(img/csm_parallax-effect-t_f1a51908a5.webp);
+    background-size: cover;
+}
+
+img {
+    height: 600px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+#para {
+    min-height: 100vh;
+    clip-path: circle(50%, 50% 50%);
+}
