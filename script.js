@@ -8,7 +8,7 @@ window.addEventListener('scroll', function(e){
 });
 
 
-// Avec la boucle foreach
+// Autre exemple avec la boucle foreach
 
     // img.forEach(element => {
     //     element.style.left = (Math.floor(window.scrollY / 10)) + '%';
